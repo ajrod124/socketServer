@@ -1,0 +1,29 @@
+{
+  "name": "test-project-socket",
+  "version": "0.2.5",
+  "description": "A Node.js app using Express 4 and WebSockets",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "bufferutil": "^2.0.0",
+    "ejs": "2.4.1",
+    "express": "^4.13.3",
+    "memory-cache": "^0.1.6",
+    "mongoose": "^4.8.0",
+    "request": "^2.79.0",
+    "underscore": "^1.8.3",
+    "utf-8-validate": "^3.0.0",
+    "ws": "^2.0.2"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT"
+}
