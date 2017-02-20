@@ -78,7 +78,7 @@ closeComms = () ->
 updateLogs = (obj) ->
 	request
 		method: 'POST'
-		url: 'https://fathomless-retreat-96857.herokuapp.com/updateLog/'
+		url: process.env.dbserver
 		headers:
 			'content-type': 'application/x-www-form-urlencoded'
 		form:
